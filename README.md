@@ -23,7 +23,7 @@ A [pi](https://github.com/badlogic/pi-mono) extension that controls which files 
 pi install npm:pi-test-scope
 
 # From git
-pi install git:github.com/yourusername/pi-test-scope
+pi install git:github.com/blwsk/pi-test-scope
 
 # Local development
 pi -e ~/projects/pi-test-scope
