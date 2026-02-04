@@ -1,0 +1,14 @@
+{
+  "name": "pi-test-scope",
+  "version": "1.0.0",
+  "description": "Pi extension to control edit scope relative to test files",
+  "keywords": ["pi-package"],
+  "author": "Kevin Bielawski",
+  "license": "MIT",
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": ["./extensions"]
+  }
+}
