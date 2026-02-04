@@ -2,6 +2,10 @@
 
 A [pi](https://github.com/badlogic/pi-mono) extension that controls which files the agent can edit based on whether they are test files.
 
+## Why?
+
+Coding agents as of Feb 2026 continue to resort to updating/deleting tests when test failures block their progress. Until this isn't an issue on the model or agent harness level, this extension can be used to enter distinct modes allowing only tests to be written or _anything but_ tests to be written. This supports typical TDD-type workflows that are made even more powerful with coding agents.
+
 ## Features
 
 - **`/notest`** - Block edits to test/spec files (toggle, or use `/notest off` to disable)
